@@ -4,6 +4,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+
+/*
+  Simple console game if your compiling on windows just ensure add #define WIN32 in code or defines in flags 
+ 
+*/
 #ifdef WIN32
 #include <Windows.h>
 
